@@ -73,7 +73,7 @@
 }
 \author{Carter T. Butts \email{buttsc@uci.edu}, Ryan M. Acton \email{rmacton@gmail.com}, and Christopher Marcum \email{christopher.steven.marcum@gmail.com}.}
 \references{
-Butts, Carter T.; Acton, Ryan M.; Marcum, Christopher Steven. 2010. Interorganizational Collaboration in the Hurricane Katrina Response. \emph{Journal of Social Structure}.
+Butts, Carter T.; Acton, Ryan M.; Marcum, Christopher Steven. 2012. \dQuote{Interorganizational Collaboration in the Hurricane Katrina Response.} \emph{Journal of Social Structure,} 13(1), 1-36. doi://10.21307/joss-2019-027
 }
 \seealso{\code{\link{katrina.bydate}}, \code{\link{katrina.bydoc}}, \code{\link{katrina.bysrc}}, \code{\link{katrina.combined}}.}
 \keyword{ package }

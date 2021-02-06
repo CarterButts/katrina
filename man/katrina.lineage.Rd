@@ -14,9 +14,9 @@ Note that some organizations in this network do not appear in the response netwo
 \source{For source reference information, see \code{\link{katrina-package}}.}
 \seealso{\code{\link{katrina-package}}, \code{\link{katrina.combined}}, \code{\link{katrina.bydate}}, \code{\link{katrina.bydoc}}, \code{\link{katrina.bysrc}}.}
 \references{
-Butts, Carter T.  2009.  Revisiting the foundations of network analysis.  \emph{Science}, 325, 414-416.
+Butts, Carter T.  2009.  \dQuote{Revisiting the Foundations of Network Analysis.}  \emph{Science}, 325, 414-416.
 
-Butts, Carter T.; Acton, Ryan M.; Marcum, Christopher Steven. 2010. Interorganizational Collaboration in the Hurricane Katrina Response. \emph{Journal of Social Structure.}
+Butts, Carter T.; Acton, Ryan M.; Marcum, Christopher Steven. 2012. \dQuote{Interorganizational Collaboration in the Hurricane Katrina Response.} \emph{Journal of Social Structure,} 13(1), 1-36. doi://10.21307/joss-2019-027
 }
 \examples{
 data(katrina.lineage)  # Load in the data

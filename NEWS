@@ -1,7 +1,10 @@
 v1.1 - Updates
 Updates:
   - Updated R package structure to comply with current R versions.
-  - Updated author contact information.
+  - Updated author contact information, and ensured that the package citations
+    reflect the original JoSS citation (they previously reflected the
+    anticipated citation at acceptance, but there was a large lag between
+    this and the final publication).
   - Configured for hosting on GitHub.
 
 v1.0 - Initial Public Release

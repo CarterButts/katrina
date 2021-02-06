@@ -53,8 +53,8 @@ Per the \bold{scale} vertex attribute, the codes are as follows:
 \source{For source reference information, see \code{\link[katrina]{katrina-package}}.}
 \references{
 
-Lind, B. E.; Tirado, M.; Butts, C. T. and Petrescu-Prahova, M.  2008.  Brokerage roles in disaster response: Organizational mediation in the wake of Hurricane Katrina.  \emph{International Journal of Emergency Management}, 2008, 5, 75-99.
+Lind, B. E.; Tirado, M.; Butts, C. T. and Petrescu-Prahova, M.  2008.  \dQuote{Brokerage roles in disaster response: Organizational mediation in the wake of Hurricane Katrina.}  \emph{International Journal of Emergency Management}, 2008, 5, 75-99.
 
-Tierney, K. J.  2003.  Conceptualizing and Measuring Organizational and Community Resilience: Lessons Learned from the Emergency Response Following the September 11, 2001 Attack on the World Trade Center.  Paper presented at the Third Comparative Workshop on Urban Earthquake Disaster Management, Kobe, Japan.
+Tierney, K. J.  2003.  \dQuote{Conceptualizing and Measuring Organizational and Community Resilience: Lessons Learned from the Emergency Response Following the September 11, 2001 Attack on the World Trade Center.}  Paper presented at the Third Comparative Workshop on Urban Earthquake Disaster Management, Kobe, Japan.
 }
 \seealso{\code{\link[katrina]{katrina-package}}, \code{\link[katrina]{katrina.bydate}}, \code{\link[katrina]{katrina.bydoc}}, \code{\link[katrina]{katrina.bysrc}}, \code{\link[katrina]{katrina.combined}}, \code{\link[katrina]{katrina.lineage}}.}

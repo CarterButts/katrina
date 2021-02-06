@@ -1,7 +1,7 @@
 # katrina
 
 <!-- badges: start -->
-[![R build status](https://github.com/CarterButts/katrina/workflows/R-CMD-check/badge.svg)](https://github.com/CarterButts/yacca/actions)
+[![R-CMD-check](https://github.com/CarterButts/katrina/workflows/R-CMD-check/badge.svg)](https://github.com/CarterButts/katrina/actions)
 <!-- badges: end -->
 
 ### Organizational Collaboration Networks from the Hurricane Katrina Response
@@ -15,7 +15,7 @@ Detailed information on data collection and coding may be found in the original 
 If using this data in a publication or similar work, we ask that you cite the above-listed source.  A convenient BibTeX version is here:
 
 ```
-@Manual{,
+@Article{,
     title = {Interorganizational Collaboration in the {H}urricane {K}atrina Response},
     author = {Carter T. Butts and Ryan M. Acton and Christopher Steven Marcum},
     year = {2012},
