@@ -16,14 +16,14 @@ If using this data in a publication or similar work, we ask that you cite the ab
 
 ```
 @Article{,
-    title = {Interorganizational Collaboration in the {H}urricane {K}atrina Response},
-    author = {Carter T. Butts and Ryan M. Acton and Christopher Steven Marcum},
-    year = {2012},
+	title = {Interorganizational Collaboration in the {H}urricane {K}atrina Response},
+	author = {Carter T. Butts and Ryan M. Acton and Christopher Steven Marcum},
+	year = {2012},
 	journal = {Journal of Social Structure},
 	volume = 13,
 	number = 1,
 	pages = "1--36"
-    url = {https://doi.org/10.21307/joss-2019-027},
+	url = {https://doi.org/10.21307/joss-2019-027},
 }
 ```
 
