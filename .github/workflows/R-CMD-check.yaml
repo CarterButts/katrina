@@ -71,6 +71,7 @@ jobs:
           remotes::install_cran("tinytex")
           remotes::install_deps(dependencies = TRUE)
           remotes::install_cran("rcmdcheck")
+          tinytex::parse_install( text = "! LaTeX Error: File `fmtcount.sty' not found.")
           tinytex::parse_install( text = "! LaTeX Error: File `datetime.sty' not found.")
           tinytex::parse_install( text = "! LaTeX Error: File `booktabs.sty' not found.")
           tinytex::parse_install( text = "! LaTeX Error: File `amsmath.sty' not found.")
