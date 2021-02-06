@@ -1,0 +1,21 @@
+Package: katrina
+Type: Package
+Title: Organizational Collaboration Networks from the Hurricane Katrina Response
+Version: 1.1
+Date: 2021-02-05
+Authors@R: c(
+    person("Carter T.", "Butts", role=c("aut","cre"), email="buttsc@uci.edu"),
+    person("Ryan M.", "Acton", role=c("aut"), email="rmacton@gmail.com"),
+    person("Christopher S.", "Marcum", role=c("aut"), email="christopher.steven.marcum@gmail.com"))
+URL: https://github.com/CarterButts/katrina
+Depends:
+    network,
+    R (>= 3.5.0)
+Imports:
+    utils
+Description: This is a data package containing dynamic networks of
+    organizational collaboration formed in response to the 2005 Hurricane
+    Katrina disaster.
+License: GPL (>= 3)
+LazyLoad: yes
+LazyData: yes

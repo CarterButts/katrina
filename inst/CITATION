@@ -1,0 +1,32 @@
+#This is an annoying workaround for R checking the package w/out installing
+if("katrina" %in% rownames(installed.packages())){
+  desc <- packageDescription("katrina")
+  #year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", desc$Date)
+  year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", packageDate("katrina"))
+  #vers <- paste("Data set, R package version", desc$Version)
+  vers <- paste("Data set, R package version", packageVersion("katrina"))
+}else{
+  desc<-NA
+  year<-"2021"
+  vers<-"1.1"
+}
+
+citHeader("'katrina' is a package containing data on interorganizational collaboration in the 2005 Hurricane Katrina response, as collected by Carter T. Butts, Ryan M. Acton, and Christopher Steven Marcum.\n\nThis version of 'katrina' is currently licensed under the GNU Public License, v3 or later.  An appropriate version of this and related authorship notices should be retained on any derivative works of this package created under this license.\n\nIf you are using 'katrina' for published research, we request that you acknowledge this with the following citation:\n\n")
+
+citEntry(entry="Manual",
+              title = "katrina: Organizational Collaboration Networks from the Hurricane Katrina Response",
+              author = personList(as.person("Carter T. Butts"),
+                                  as.person("Ryan M. Acton"),
+                                  as.person("Christopher Steven Marcum")),
+              year = year,
+              address = "Irvine, CA",
+              url = "https://github.com/CarterButts/katrina",
+              note = vers,
+     
+              textVersion =
+              paste("Carter T. Butts, Ryan M. Acton, and Christpher Steven Marcum. (",
+                    year,
+                    "). katrina: Organizational Collaboration Networks from the Hurricane Katrina Response. ",
+                    vers, ".  Irvine, CA.  https://github.com/CarterButts/katrina", sep=""))
+
+citFooter("The original source for the data contained in this package should be cited as follows:\n\n  Butts, Carter T.; Acton, Ryan M.; and Marcum, Christopher Steven.  (2010).  ``Interorganizational Collaboration in the Hurricane Katrina Response.''  Journal of Social Structure.\n\nThis package and associated materials are based upon work supported by the US National Science Foundation under Grant Nos. IIS-0331707 and CHE-0555125 and by US ONR award N00014-08-1-1015. Any opinions, findings and conclusions or recomendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation (NSF) or the Office of Naval Research (ONR).")
