@@ -35,7 +35,7 @@ More information regarding the package and its use may be found within the packa
 
 To install the `katrina` package from the comfort of your own home or office, first ensure that you have the `devtools` package installed and loaded.  Then, type the following:
 
-	install_github("carterbutts/katrina", subdir="katrina")
+	install_github("carterbutts/katrina")
 
 Alternately, cloning this repository and building/installing the package locally is another option.  But in that case, you don't need my help to tell you what to do, now do you?
 
